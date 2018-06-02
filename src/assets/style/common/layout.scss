@@ -1,0 +1,15 @@
+@import "./../base/variables.scss";
+.container {
+  max-width: $max-content-width;
+  margin: 0 auto;
+  padding: 0 20px;
+  @media (min-width: $tablet-min) {
+    padding: 0 40px;
+  }
+  @media (min-width: $desktop-min) {
+    padding: 0 80px;
+  }
+  @media (min-width: $hd-min) {
+    padding: 0 160px;
+  }
+}

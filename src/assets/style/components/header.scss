@@ -1,0 +1,14 @@
+@import "./../base/variables.scss";
+.header {
+  height: 60px;
+  background-color: $foreground-color;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  box-shadow: 0 1px 7px 0 rgba(0,0,0,.3);
+  &__content {
+    padding-top: 17px;
+  }
+}
